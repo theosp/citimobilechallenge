@@ -1,0 +1,42 @@
+[SLIDE 1]
+
+[Image 1 turmoil]
+
+So, the US job report is published, and the markets are paniced, [Image 2 turmoil] s&p and dow go down 2%, banks are in even worse shape.
+
+You did your research and see one of the stocks that you've analysed thoroughly in a great price, once you thought
+you'll never get an oppertunity to purchase it in.
+
+You check quickly whether any new report or information about the company was published, and you see that there's nothing -
+You turn to purchase it.
+
+You open your broker's markets trading app and you are just about to send the buy order... but then... mobile internet is down.
+
+Now what do you do? [TRADING Hotline] you can call the trading hotline, but that might take long minutes to get a broker on the other
+side of the line, by which time, the stock might go to higher level, and your buy opertunity might disappear.
+
+Or, if your broker is using, KeepAlive, you can keep trading as if you are still connected - virtually seamlessly.
+
+[Image 4 KeepAlive diagram]
+
+KeepAlive is a framework that allows users to keep interacting with a service when mobile internet connection goes down.
+
+KeepAlive is built under the assumption that the Global System for Mobile Communications, or GSM, is much more stable than
+the mobile internet networks such as 4g or 3g.
+
+Under the hood, when internet becomes unavailable, KeepAlive fallbacks to an SMS protocol for secure bidirectional
+interaction with the server.
+
+Enabeling KeepAlive on any service is simple, all you need to do is provide the user's phone number and register the API
+endpoints for the buttons you want to keep working when internet goes down. KeepAlive will do all the rest.
+
+When internet will go down the user will be notified, but will be able to keep using all the buttons registered with KeepAlive
+seamlessly.
+
+With KeepAlive citi can improve client's confidence, trust and satisfaction, encourage more trading over its platform, and reduce pressure
+on call centers. The service works globally.
+
+[LAST SLIDE]
+
+KeepAlive - Keeps you up when internet goes down
+

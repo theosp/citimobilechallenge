@@ -1,0 +1,26 @@
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" href="/theme/moon.css" type="text/css"/>
+
+    <title></title>
+</head>
+
+<template name="loading">
+    <span style="color: white;font-weight: bolder;font-style: italic;font-size: 18px;padding: 11px;line-height: 41px;">Loading Slides...</span>
+</template>
+
+<template name="slides">
+    <div class="reveal">
+        <div class="slides">
+            {{#each slides}}
+                <section>{{{content}}}</section>
+            {{/each}}
+        </div>
+    </div>
+    <img src="/img/logo.png" style="background: none; border: none; width:270px; vertical-align: middle; margin-top: -2px; border-radius: 12px; position: absolute; bottom: 31px; left: 25px;">
+</template>
+
+<template name="login">
+    {{> loginButtons}}
+</template>
